@@ -13,4 +13,3 @@ if grep -q "^$usuario:" /etc/passwd  ; then
 else
 	echo "Não existe o usuário $usuario"
 fi
-

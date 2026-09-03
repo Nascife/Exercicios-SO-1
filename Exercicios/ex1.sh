@@ -18,21 +18,21 @@ echo "1. Soma
 read opcao
 
 case $opcao in
-1)
-echo "A soma é $(expr $n1 + $n2)!"
-;;
-2)
-echo "A subtração é $(expr $n1 - $n2)!"
-;;
-3)
-echo "A multiplicação é $(expr $n1 \* $n2)!"
-;;
-4)
-echo "A divisão é $(expr $n1 / $n2)!"
-;;
-5)
-echo "Saindo..."
-;;
-*)
-echo "Opção errada, tente novamente"
+	1)
+	echo "A soma é $(expr $n1 + $n2)!"
+	;;
+	2)
+	echo "A subtração é $(expr $n1 - $n2)!"
+	;;
+	3)
+	echo "A multiplicação é $(expr $n1 \* $n2)!"
+	;;
+	4)
+	echo "A divisão é $(expr $n1 / $n2)!"
+	;;
+	5)
+	echo "Saindo..."
+	;;
+	*)
+	echo "Opção errada, tente novamente"
 esac
